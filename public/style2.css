@@ -1,0 +1,129 @@
+/* body {
+    background-color: pink;
+} */
+
+.navbar {
+    height: 5 rem;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1c1c1c; /* Dark background to contrast text */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+  }
+  
+  footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f8f9fa; /* Slightly lighter color for headings */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  footer p, footer li, footer a {
+    font-size: 16px;
+    color: #d1d1d1; /* Soft white for body text */
+  }
+  
+  footer a {
+    color: #d1d1d1;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #f8f9fa; /* Brighter color on hover */
+    text-decoration: underline;
+  }
+  
+  footer i {
+    color: #f8f9fa; /* Icons and copyright in light white */
+  }
+  
+  footer .row {
+    margin-bottom: 20px; /* Space between sections */
+  }
+  
+  /* Social media icons styling */
+  footer .fab {
+    font-size: 24px; /* Adjust the size of social media icons */
+    transition: color 0.3s ease;
+  }
+  
+  footer .fab:hover {
+    color: #ffcc00; /* Bright color on hover for social media icons */
+  }
+  
+  footer hr {
+    border-color: #444; /* Thin, soft divider between footer and copyright */
+  }
+  
+  footer .col-md-6 {
+    display: flex;
+    align-items: center; /* Align the text vertically */
+    justify-content: space-between; /* Spread content evenly */
+  }
+  
+  footer .col-md-6 p {
+    margin: 0; /* Remove default margins for better alignment */
+  }
+  
+  footer .col-md-6 a {
+    margin-left: 15px; /* Spacing between privacy and terms links */
+  }
+  
+  /* 'Made with love' section */
+  footer b {
+    font-size: 14px; /* Slightly smaller text for the love message */
+    color: #ffcc00; /* Highlight this message with a distinct color */
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  footer .container {
+    max-width: 1200px; /* Adjust for larger screens */
+  }
+  
+  @media (max-width: 768px) {
+    footer .col-md-6.text-end {
+      text-align: center;
+      margin-top: 15px;
+    }
+  
+    footer .col-md-6 {
+      justify-content: center;
+    }
+  
+    footer b {
+      margin-top: 30px;
+    }
+  }
+  
+
+  body {
+    background-image: url('Screenshot\ 2024-09-21\ 021450.png'); /* Replace with your image path */
+    background-size: cover; /* Scale the image to cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Ensure the body takes full viewport height */
+}
+
+
+#mybody {
+    background-image: url('Screenshot\ 2024-09-21\ 021422.png'); /* Replace with your image path */
+    background-size: cover; /* Scale the image to cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Ensure the body takes full viewport height */
+}

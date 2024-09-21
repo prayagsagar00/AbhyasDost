@@ -1,0 +1,15 @@
+<% layout("/layouts/boilerplate") -%>
+<body>
+    <p><i> Edit your task: <%= task._id %> </i></p>
+    
+    <form  method="post" action="/dashboard/<%= task._id %>?_method=PUT">
+        <textarea name="priorityTask" id="" cols="30" rows="10">
+            <%= task.priorityTask %>
+        </textarea>
+        <textarea name="deadline" id="" cols="30" rows="10">
+            <%= task.deadline %>
+        </textarea>
+        <button>edit</button>
+    </form>
+    
+</body>
